@@ -5,6 +5,14 @@ GIT
     mail (2.8.0.edge)
       mini_mime (>= 0.1.1)
 
+GIT
+  remote: https://github.com/rubyjs/mini_racer.git
+  revision: 2838212bdf1f545b28d93975cc413d5677dd8901
+  branch: refs/pull/186/head
+  specs:
+    mini_racer (0.3.1)
+      libv8-node (~> 15.12.0.0.beta1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -199,12 +207,13 @@ GEM
       uri_template (~> 0.7)
     jwt (2.5.0)
     kgio (2.11.4)
-    libv8-node (16.10.0.0)
-    libv8-node (16.10.0.0-aarch64-linux)
-    libv8-node (16.10.0.0-arm64-darwin)
-    libv8-node (16.10.0.0-x86_64-darwin)
-    libv8-node (16.10.0.0-x86_64-darwin-19)
-    libv8-node (16.10.0.0-x86_64-linux)
+    libv8-node (15.12.0.0.beta1)
+    libv8-node (15.12.0.0.beta1-aarch64-linux)
+    libv8-node (15.12.0.0.beta1-arm64-darwin-20)
+    libv8-node (15.12.0.0.beta1-x86_64-darwin-18)
+    libv8-node (15.12.0.0.beta1-x86_64-darwin-19)
+    libv8-node (15.12.0.0.beta1-x86_64-darwin-20)
+    libv8-node (15.12.0.0.beta1-x86_64-linux)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -231,8 +240,6 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
-    mini_racer (0.6.3)
-      libv8-node (~> 16.10.0.0)
     mini_scheduler (0.14.0)
       sidekiq (>= 4.2.3)
     mini_sql (1.4.0)
@@ -581,7 +588,7 @@ DEPENDENCIES
   memory_profiler
   message_bus
   mini_mime
-  mini_racer
+  mini_racer!
   mini_scheduler
   mini_sql
   mini_suffix

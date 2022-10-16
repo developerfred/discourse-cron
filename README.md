@@ -114,3 +114,8 @@ To guide our ongoing effort to build accessible software we follow the [W3C’s 
 ## Dedication
 
 Discourse is built with [love, Internet style.](https://www.youtube.com/watch?v=Xe1TZaElTAs)
+
+
+## How To Run MacBook 
+
+ - [best way running on macbook m1](https://discuss.rubyonrails.org/t/tips-and-tricks-for-developing-rails-applications-on-apple-silicon/77089/10)
